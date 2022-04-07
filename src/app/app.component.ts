@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Goals';
+  // title = 'Goals';
+  // title = 'Goals';
+  goals: string[] = [];
+  constructor (){
+    this.goals= ["hm","jm","lo"]
+  }
+
+  // constructor (id:number,name:string){
+  //   public this.id=id;
+  //   this.name=name
+
+  // }
+
 }

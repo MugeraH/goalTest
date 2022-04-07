@@ -1,0 +1,26 @@
+data binding
+event binding
+property binding
+
+parent and child components
+directives
+pipes
+decorators
+
+
+Appmodule
+-  This root module acts as the application's main entry point. What this means is that all the other modules must be imported to the root module for them to work. Remember, without the root module, your application will not work.
+
+
+Decorators 
+-- are functions that modify JavaScript classes
+--  Decorators are basically used for attaching metadata to classes so that, it knows the configuration of those classes and how they should work. Hence NgModule is a decorator function that takes metadata objects whose properties describe the module.
+
+components
+--- A component controls one or more sections on the screen called a view. 
+
+ Input property binding
+
+Property binding sets a specific element property.
+Event binding listens for an element change event.
+Inputs and Outputs
