@@ -24,3 +24,23 @@ components
 Property binding sets a specific element property.
 Event binding listens for an element change event.
 Inputs and Outputs
+
+
+text interpolation {{}} mustache syntax
+template expression
+
+
+//COMMUNCATION BTW PARENT AND CHILD
+1.binding(@input & @output)
+
+
+2.Reference (@viewChild & @ContentChild)
+3.Provider(Service)
+4.Template Outlet
+
+
+
+
+
+
+use lifecycle hooksto fine tune the behaviour of our components during creation, update and destruction
